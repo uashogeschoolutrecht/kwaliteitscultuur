@@ -1,3 +1,8 @@
+---
+title: "Kwaliteitscultuur"
+format: gfm
+jupyter: python3
+---
 
 # QCI
 #### Author: Jan T. (IR) en Team D&A
