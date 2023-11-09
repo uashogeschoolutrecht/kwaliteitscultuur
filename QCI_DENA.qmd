@@ -16,7 +16,7 @@ import numpy        as np   #required for NaN
 ```
 
 ```{python}
-#| echo: true
+#| echo: false
 #| label: Sample data
 #| tbl-cap: TABLE 1. Sample data.
 #| tbl-column: body
