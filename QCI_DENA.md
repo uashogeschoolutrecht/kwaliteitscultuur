@@ -11,23 +11,8 @@ import pingouin     as pg   #required for Cronbach's Alpha
 import numpy        as np   #required for NaN
 ```
 
-``` python
-### Load data
-# Use sample data because of unavailability of QCI data
-qcidata = pd.DataFrame({   'Vraag3': [3, 2, 2, 3, 2, 2, 3, 3, 6, 1],
-                            'Vraag4': [1, 1, 1, 2, 3, 3, 2, 3, 3, 3],
-                            'Vraag5': [1, 0, 2, 1, 2, 3, 3, 3, 2, 3],
-                            'Vraag6': [3, 2, 2, 3, 2, 2, 3, 3, 6, 1],
-                            'Vraag7': [1, 1, 1, 2, 3, 3, 2, 3, 3, 3],
-                            'Vraag8': [1, 1, 2, 1, 2, 3, 3, 3, 2, 3],
-                            'Vraag9': [1, 1, 2, 1, 2, 3, 3, 3, 2, 8]})
-(
-    qcidata.style # Needed to convert df.head() to kbl format
-    .hide(axis='index')
-)
-```
-
-TABLE 1. Sample data.
+<style type="text/css">
+</style>
 
 | Vraag3 | Vraag4 | Vraag5 | Vraag6 | Vraag7 | Vraag8 | Vraag9 |
 |--------|--------|--------|--------|--------|--------|--------|
@@ -42,7 +27,7 @@ TABLE 1. Sample data.
 | 6      | 3      | 2      | 6      | 3      | 2      | 2      |
 | 1      | 3      | 3      | 1      | 3      | 3      | 8      |
 
-
+TABLE 1. Sample data.
 
 ## Data cleaning
 
